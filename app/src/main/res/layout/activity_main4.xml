@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <FrameLayout
+        android:layout_width="409dp"
+        android:layout_height="200dp"
+        android:background="#020202"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:drawableTint="#D52222"
+            android:fontFamily="sans-serif-black"
+            android:paddingTop="160px"
+            android:text="Renamed User"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:padding="10px"
+            android:text="Настройки профиля"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="50px" />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="529dp"
+        android:background="#A6A2A2"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="201dp">>
+
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="2px"
+            android:paddingLeft="20px"
+            android:paddingTop="20dp"
+            android:text="О нас"
+            android:textAlignment="center"
+            android:textColor="#B8B3B3"
+            android:textSize="70px" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="2px"
+            android:paddingLeft="200px"
+            android:paddingTop="20px"
+            android:text="Обратная связь"
+            android:textAlignment="center"
+            android:textColor="#B8B3B3"
+            android:textSize="70px" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="2px"
+            android:paddingLeft="200px"
+            android:paddingTop="20px"
+            android:text="Настройки"
+            android:textAlignment="center"
+            android:textColor="#B8B3B3"
+            android:textSize="70px" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="2px"
+            android:paddingLeft="200px"
+            android:paddingTop="20px"
+            android:text="Условия пользования"
+            android:textAlignment="center"
+            android:textColor="#B8B3B3"
+            android:textSize="70px" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="2px"
+            android:paddingLeft="200px"
+            android:paddingTop="20px"
+            android:text="Задать вопрос"
+            android:textAlignment="center"
+            android:textColor="#B8B3B3"
+            android:textSize="70px" />
+
+
+    </LinearLayout><![CDATA[>
+]]>
+</androidx.constraintlayout.widget.ConstraintLayout>

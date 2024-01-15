@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="vhod"
+    android:outlineSpotShadowColor="#C1C1C1"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="409dp"
+        android:layout_height="200dp"
+        android:background="#020202"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableTint="#D52222"
+            android:fontFamily="sans-serif-black"
+            android:paddingTop="160px"
+            android:text="MOTORSPORT.RU"
+            android:textAlignment="center"
+            android:textColor="#EC0505"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="529dp"
+        android:background="#A6A2A2"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="201dp"><![CDATA[>]]>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="10px"
+            android:text="Авторизация"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="96px" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="2px"
+            android:paddingLeft="200px"
+            android:paddingTop="20px"
+            android:text="ЛОГИН"
+            android:textColor="#B8B3B3"
+            android:textSize="70px" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="2px"
+            android:paddingLeft="20px"
+            android:paddingTop="20dp"
+            android:text="ПАРОЛЬ"
+            android:textColor="#B8B3B3"
+            android:textSize="70px" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="10px"
+            android:text="Запомнить меня"
+            android:textColor="@color/white"
+            android:textSize="60px" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="2px"
+            android:paddingLeft="20px"
+            android:paddingTop="20dp"
+            android:text="Я не робот"
+            android:textAlignment="center"
+            android:textColor="#020202"
+            android:textSize="80px" />
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="332dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="2px"
+            android:paddingLeft="1px"
+            android:paddingTop="20dp"
+            android:text="Войти"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textSize="80px" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:padding="10px"
+            android:text="Нет учетной записи?"
+            android:textColor="@color/black"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:padding="10px"
+            android:text="Создайте ее"
+            android:textColor="@color/black"
+            android:textSize="50px" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="10px"
+            android:text="Регистрация"
+            android:textColor="#FA0101"
+            android:textSize="60px" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:fontFamily="sans-serif-black"
+            android:padding="10px"
+            android:text="Политика о конфиденциальности"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="50px" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
